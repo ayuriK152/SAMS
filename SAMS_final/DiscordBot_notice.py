@@ -58,7 +58,7 @@ async def GetNotice(ctx, kind):
     res = requests.get(url)
     res.raise_for_status()
 
-    soup = BeautifulSoup(res.text, "lxml")
+    soup = BeautifulSoup(res.text, "html.parser")
 
     #soup.find는 가장 먼저 만나는 태그 하나만을 뽑지만,
     #soup.find_all은 전체 태그에서 찾는다.
