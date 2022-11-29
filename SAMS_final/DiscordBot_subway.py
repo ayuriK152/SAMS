@@ -123,22 +123,4 @@ async def GetFastestTime(ctx, command):
                             value=resultMsg, inline=False)
             embed.set_footer(text="*지하철 시간은 상황에 따라 달라질 수 있습니다.")
             await ctx.channel.send(embed=embed)
-
-
-def test(command):
-    tempParam = command.split()
-    params['dept_station_code'] = trainCodeExcel[trainCodeExcel['station_name'] == tempParam[1]]['station_code'].values[0]
-    params['numOfRows'] = '10'
-    params['dept_time'] = tempParam[2] + '00'
-    print(params)
-    print(requests.get(url, params=params).text)
-    response = json.loads(requests.get(url, params=params).text)
-    start_st = response['data']['route'][0]['station_nm'] #출발역 이름
-    start_time = response['data']['route'][0]['timestamp'] #출발 기차시간
-    arrv_time = response['data']['arrv_time'] #최종도착시간
-    totalTime =response['data']['time'] #소요시간
-
-    print(response)
-    print(start_st + " " + start_time + " " + arrv_time)
-
-#test('!지하철 보라매 0500')
+            

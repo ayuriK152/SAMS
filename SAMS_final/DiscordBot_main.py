@@ -92,3 +92,4 @@ async def on_message(ctx):
 # 개발자 페이지에서 봇에 대한 토큰 텍스트를 가져온 뒤, TOKEN에 대입하자
 f = open("token.txt", "r")
 client.run(f.readline())
+f.close()
