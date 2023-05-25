@@ -30,8 +30,11 @@
 
 ## 사용 예시
 - 날씨 명령어 사용
+
 ![image](https://github.com/ayuriK152/SAMS/assets/77537017/905f08b5-835e-4998-9450-1294e497d932)
 - 도서관 검색 서비스 사용
+
 ![image](https://github.com/ayuriK152/SAMS/assets/77537017/048ff178-a71c-4a9d-b553-127db3472fce)
 - 지하철 시간 확인 사용
+
 ![image](https://github.com/ayuriK152/SAMS/assets/77537017/dd67625f-3887-47a3-a507-75a938bec43c)
