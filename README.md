@@ -4,7 +4,7 @@
 
 ## 프로젝트 인원
 - 김동현(https://github.com/belfly1111)
-- 김상원()
+- 김상원(https://github.com/Doncham)
 - 이원섭(https://github.com/ayuriK152)
 - 이지민(https://github.com/EJimin0509)
 
